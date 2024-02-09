@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/save_video_dcim_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save video DCIM folder" />
+    <Button
+        android:id="@+id/save_video_movies_subfolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save video to Movies subfolder" />
+    <Button
+        android:id="@+id/open_photo_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch the photo picker" />
+</LinearLayout>
